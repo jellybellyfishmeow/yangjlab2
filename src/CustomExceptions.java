@@ -32,13 +32,3 @@
 		return message;
 	}
 }
-
-/**
- * Custom-defined exceptions to be used in the code when the Stack is popped or
- * peeked at while it is empty
- * 
- * @author jingyuyang
- *
- */
-class EmptyStackException extends Exception {
-}

@@ -41,7 +41,6 @@ public class YangJLab2 {
 		// process input integers in the file, then write to output file
 		LinkedList allEntries = readFile(in);
 		if (allEntries.headNode != null) { // Not an empty file
-			//processResulttoPrint(allEntries, out);
 			processOneByOne(out, allEntries);
 		}
 
@@ -68,12 +67,21 @@ public class YangJLab2 {
 				int input = Integer.parseInt(curr.getData().toString());
 				printStringtoOutput("", output);
 				printStringtoOutput("INPUT:" + input, output);
+				
+				//recursive method
+				long recursiveStartTime = System.nanoTime();
 			   singleOutput = recurisveHanoiSteps(input);
+			   long recursitveEndTime = System.nanoTime();
+				printStringtoOutput("Time for Recurisve: " + (recursitveEndTime - recursiveStartTime), output);
+				//processResulttoPrint(singleOutput, output); // print out each set
+
+			   //iterative method
+				
+				//processResulttoPrint(singleOutput, output); // print out each set
 			} catch (InvalidInputException e) {
 				printStringtoOutput("\t Error: Input is invalid. " + e.getMessage(), output);
 			}
 			curr = curr.next;
-			processResulttoPrint(singleOutput, output); // print out each set
 		}
 	}
 	
