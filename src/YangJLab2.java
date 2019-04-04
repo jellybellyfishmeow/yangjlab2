@@ -13,13 +13,8 @@ import java.util.concurrent.TimeoutException;
  *         the processing, along with their respective run times.
  */
 
-/*
- * java YangJLab2 /Users/jennyyang/eclipse-workspace/YangJLab2/input/in.txt
- * /Users/jennyyang/eclipse-workspace/YangJLab2/output/out.txt
- */
 
 public class YangJLab2 {
-
 	/**
 	 * Main method that runs steps to read the input file, process each tower of
 	 * Hanoi statement, and write to an output file
@@ -108,8 +103,6 @@ public class YangJLab2 {
 					printStringtoOutput("", output);
 
 				}
-			} catch (MemoryOrTimeException e) {
-				printStringtoOutput("Error: input is too large. " + e.getMessage(), output);
 			} catch (NumberFormatException e) {
 				printStringtoOutput("Error: input from file is invalid. " + e.getMessage(), output);
 			} catch (InvalidInputException e) {
@@ -150,16 +143,13 @@ public class YangJLab2 {
 	 * @throws InvalidInputException if the input is a negative number
 	 * @throws MemoryOrTimeException
 	 */
-	private static LinkedList recurisveHanoiSteps(int size) throws InvalidInputException, MemoryOrTimeException {
+	private static LinkedList recurisveHanoiSteps(int size) throws InvalidInputException {
 		if (size < 0) {
 			throw new InvalidInputException("Input size cannot be negative, but " + size + " is a negative number");
 		}
 		LinkedList steps = new LinkedList();
-		try {
-			return doRecursiveHanoiSteps(size, 'A', 'B', 'C', steps);
-		} catch (OutOfMemoryError e) {
-			throw new MemoryOrTimeException("Ran out of memory");
-		}
+		return doRecursiveHanoiSteps(size, 'A', 'B', 'C', steps);
+		
 	}
 
 	/**

@@ -1,6 +1,7 @@
 /**
  * Custom-defined exceptions to be used in the code when the input 
- *  is not of valid format, or if the stack is empty or full
+ *  is not of valid format, such as a negative number, not an integer,
+ *  or a string/char
  * 
  * @author jingyuyang
  *
@@ -34,7 +35,7 @@
 }
  
  /**
-  * 
+  * custom exception for when the stack size is not correct
   * @author jingyuyang
   *
   */
@@ -66,35 +67,4 @@
 		}
 	}
  
- /**
-  * 
-  * @author jingyuyang
-  *
-  */
- class MemoryOrTimeException extends Exception {
-
-		private String message;
-
-		/**
-		 * constructor for no messages
-		 */
-		public MemoryOrTimeException() {
-		}
-
-		/**
-		 * constructor if there is a message
-		 * 
-		 * @param String of the message
-		 */
-		public MemoryOrTimeException(String string) {
-			message = string;
-		}
-
-		/**
-		 * Getter of the custom error message
-		 * @return the error message
-		 */
-		public String getMessage() {
-			return message;
-		}
-	}
+ 

@@ -1,0 +1,3 @@
+Error: Input is invalid. Input size cannot be negative, but -1 is a negative number
+Error: input from file is invalid. For input string: "e"
+Error: input from file is invalid. For input string: "12.12"

@@ -1,0 +1,384 @@
+
+INPUT:1
+OUTPUT (recursive) : 
+Move disk 1 from A to tower C
+
+OUTPUT (iterative) : 
+Move disk 1 from A to tower C
+
+Time for recursive: 2020886
+Time for iterative: 110762
+
+
+INPUT:2
+OUTPUT (recursive) : 
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+
+OUTPUT (iterative) : 
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+
+Time for recursive: 4065
+Time for iterative: 9472
+
+
+INPUT:3
+OUTPUT (recursive) : 
+Move disk 1 from A to tower C
+Move disk 2 from A to tower B
+Move disk 1 from C to tower B
+Move disk 3 from A to tower C
+Move disk 1 from B to tower A
+Move disk 2 from B to tower C
+Move disk 1 from A to tower C
+
+OUTPUT (iterative) : 
+Move disk 1 from A to tower C
+Move disk 2 from A to tower B
+Move disk 1 from C to tower B
+Move disk 3 from A to tower C
+Move disk 1 from B to tower A
+Move disk 2 from B to tower C
+Move disk 1 from A to tower C
+
+Time for recursive: 5266
+Time for iterative: 16186
+
+
+INPUT:4
+OUTPUT (recursive) : 
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+Move disk 3 from A to tower B
+Move disk 1 from C to tower A
+Move disk 2 from C to tower B
+Move disk 1 from A to tower B
+Move disk 4 from A to tower C
+Move disk 1 from B to tower C
+Move disk 2 from B to tower A
+Move disk 1 from C to tower A
+Move disk 3 from B to tower C
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+
+OUTPUT (iterative) : 
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+Move disk 3 from A to tower B
+Move disk 1 from C to tower A
+Move disk 2 from C to tower B
+Move disk 1 from A to tower B
+Move disk 4 from A to tower C
+Move disk 1 from B to tower C
+Move disk 2 from B to tower A
+Move disk 1 from C to tower A
+Move disk 3 from B to tower C
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+
+Time for recursive: 16778
+Time for iterative: 31028
+
+
+INPUT:5
+OUTPUT (recursive) : 
+Move disk 1 from A to tower C
+Move disk 2 from A to tower B
+Move disk 1 from C to tower B
+Move disk 3 from A to tower C
+Move disk 1 from B to tower A
+Move disk 2 from B to tower C
+Move disk 1 from A to tower C
+Move disk 4 from A to tower B
+Move disk 1 from C to tower B
+Move disk 2 from C to tower A
+Move disk 1 from B to tower A
+Move disk 3 from C to tower B
+Move disk 1 from A to tower C
+Move disk 2 from A to tower B
+Move disk 1 from C to tower B
+Move disk 5 from A to tower C
+Move disk 1 from B to tower A
+Move disk 2 from B to tower C
+Move disk 1 from A to tower C
+Move disk 3 from B to tower A
+Move disk 1 from C to tower B
+Move disk 2 from C to tower A
+Move disk 1 from B to tower A
+Move disk 4 from B to tower C
+Move disk 1 from A to tower C
+Move disk 2 from A to tower B
+Move disk 1 from C to tower B
+Move disk 3 from A to tower C
+Move disk 1 from B to tower A
+Move disk 2 from B to tower C
+Move disk 1 from A to tower C
+
+OUTPUT (iterative) : 
+Move disk 1 from A to tower C
+Move disk 2 from A to tower B
+Move disk 1 from C to tower B
+Move disk 3 from A to tower C
+Move disk 1 from B to tower A
+Move disk 2 from B to tower C
+Move disk 1 from A to tower C
+Move disk 4 from A to tower B
+Move disk 1 from C to tower B
+Move disk 2 from C to tower A
+Move disk 1 from B to tower A
+Move disk 3 from C to tower B
+Move disk 1 from A to tower C
+Move disk 2 from A to tower B
+Move disk 1 from C to tower B
+Move disk 5 from A to tower C
+Move disk 1 from B to tower A
+Move disk 2 from B to tower C
+Move disk 1 from A to tower C
+Move disk 3 from B to tower A
+Move disk 1 from C to tower B
+Move disk 2 from C to tower A
+Move disk 1 from B to tower A
+Move disk 4 from B to tower C
+Move disk 1 from A to tower C
+Move disk 2 from A to tower B
+Move disk 1 from C to tower B
+Move disk 3 from A to tower C
+Move disk 1 from B to tower A
+Move disk 2 from B to tower C
+Move disk 1 from A to tower C
+
+Time for recursive: 18788
+Time for iterative: 76643
+
+
+INPUT:6
+OUTPUT (recursive) : 
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+Move disk 3 from A to tower B
+Move disk 1 from C to tower A
+Move disk 2 from C to tower B
+Move disk 1 from A to tower B
+Move disk 4 from A to tower C
+Move disk 1 from B to tower C
+Move disk 2 from B to tower A
+Move disk 1 from C to tower A
+Move disk 3 from B to tower C
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+Move disk 5 from A to tower B
+Move disk 1 from C to tower A
+Move disk 2 from C to tower B
+Move disk 1 from A to tower B
+Move disk 3 from C to tower A
+Move disk 1 from B to tower C
+Move disk 2 from B to tower A
+Move disk 1 from C to tower A
+Move disk 4 from C to tower B
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+Move disk 3 from A to tower B
+Move disk 1 from C to tower A
+Move disk 2 from C to tower B
+Move disk 1 from A to tower B
+Move disk 6 from A to tower C
+Move disk 1 from B to tower C
+Move disk 2 from B to tower A
+Move disk 1 from C to tower A
+Move disk 3 from B to tower C
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+Move disk 4 from B to tower A
+Move disk 1 from C to tower A
+Move disk 2 from C to tower B
+Move disk 1 from A to tower B
+Move disk 3 from C to tower A
+Move disk 1 from B to tower C
+Move disk 2 from B to tower A
+Move disk 1 from C to tower A
+Move disk 5 from B to tower C
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+Move disk 3 from A to tower B
+Move disk 1 from C to tower A
+Move disk 2 from C to tower B
+Move disk 1 from A to tower B
+Move disk 4 from A to tower C
+Move disk 1 from B to tower C
+Move disk 2 from B to tower A
+Move disk 1 from C to tower A
+Move disk 3 from B to tower C
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+
+OUTPUT (iterative) : 
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+Move disk 3 from A to tower B
+Move disk 1 from C to tower A
+Move disk 2 from C to tower B
+Move disk 1 from A to tower B
+Move disk 4 from A to tower C
+Move disk 1 from B to tower C
+Move disk 2 from B to tower A
+Move disk 1 from C to tower A
+Move disk 3 from B to tower C
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+Move disk 5 from A to tower B
+Move disk 1 from C to tower A
+Move disk 2 from C to tower B
+Move disk 1 from A to tower B
+Move disk 3 from C to tower A
+Move disk 1 from B to tower C
+Move disk 2 from B to tower A
+Move disk 1 from C to tower A
+Move disk 4 from C to tower B
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+Move disk 3 from A to tower B
+Move disk 1 from C to tower A
+Move disk 2 from C to tower B
+Move disk 1 from A to tower B
+Move disk 6 from A to tower C
+Move disk 1 from B to tower C
+Move disk 2 from B to tower A
+Move disk 1 from C to tower A
+Move disk 3 from B to tower C
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+Move disk 4 from B to tower A
+Move disk 1 from C to tower A
+Move disk 2 from C to tower B
+Move disk 1 from A to tower B
+Move disk 3 from C to tower A
+Move disk 1 from B to tower C
+Move disk 2 from B to tower A
+Move disk 1 from C to tower A
+Move disk 5 from B to tower C
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+Move disk 3 from A to tower B
+Move disk 1 from C to tower A
+Move disk 2 from C to tower B
+Move disk 1 from A to tower B
+Move disk 4 from A to tower C
+Move disk 1 from B to tower C
+Move disk 2 from B to tower A
+Move disk 1 from C to tower A
+Move disk 3 from B to tower C
+Move disk 1 from A to tower B
+Move disk 2 from A to tower C
+Move disk 1 from B to tower C
+
+Time for recursive: 44306
+Time for iterative: 133678
+
+
+INPUT:7
+Time for recursive: 640302
+Time for iterative: 245272
+
+
+INPUT:8
+Time for recursive: 157039
+Time for iterative: 460962
+
+
+INPUT:9
+Time for recursive: 190845
+Time for iterative: 679004
+
+
+INPUT:10
+Time for recursive: 330284
+Time for iterative: 1011761
+
+
+INPUT:11
+Time for recursive: 503396
+Time for iterative: 964584
+
+
+INPUT:12
+Time for recursive: 229879
+Time for iterative: 998127
+
+
+INPUT:13
+Time for recursive: 862002
+Time for iterative: 2812211
+
+
+INPUT:14
+Time for recursive: 1583684
+Time for iterative: 6214162
+
+
+INPUT:15
+Time for recursive: 2809237
+Time for iterative: 10396223
+
+
+INPUT:16
+Time for recursive: 7631884
+Time for iterative: 5451812
+
+
+INPUT:17
+Time for recursive: 35109258
+Time for iterative: 15627306
+
+
+INPUT:18
+Time for recursive: 22472675
+Time for iterative: 66310976
+
+
+INPUT:19
+Time for recursive: 59461678
+Time for iterative: 307369045
+
+
+INPUT:20
+Time for recursive: 313312908
+Time for iterative: 150328701
+
+
+INPUT:21
+Time for recursive: 735743182
+Time for iterative: 792225360
+
+
+INPUT:22
+Time for recursive: 1484421641
+Time for iterative: 1558769422
+
+
+INPUT:23
+Time for recursive: 2986982136
+Time for iterative: 3446965784
+
+
+INPUT:24
+Time for recursive: 27079151700
+Time for iterative: 34436208320
+
